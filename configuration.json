@@ -1,0 +1,65 @@
+[
+    {
+        "key": "UserName",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "UserName",
+            "description": "The UserName to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "Password",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "type": "password",
+            "label": "Password",
+            "description": "The password to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "API",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "API",
+            "description": "The name API that will be used",
+            "placeholder": "Customeruseranagement_API",
+            "required": true
+        }
+    },
+    {
+        "key": "Environments",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Environments",
+            "description": "A comma separated list of environments",
+            "placeholder": "Environment1,Environment2",
+            "required": true
+        }
+    },
+    {
+        "key": "BaseUrl",
+        "type": "input",
+        "defaultValue": "https://{environment}.outsystemsenterprise.com",
+        "templateOptions": {
+            "label": "The URL to OutSystems",
+            "description": "The URL to OutSystems. This does not need to be changed",
+            "required": false
+        }
+    },
+    {
+        "key": "IsDebug",
+        "type": "checkbox",
+        "defaultValue": true,
+        "templateOptions": {
+            "label": "Toggle debug logging",
+            "description": "When toggled, debug logging will be displayed",
+            "required": false
+        }
+    }
+]
